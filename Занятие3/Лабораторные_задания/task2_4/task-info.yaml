@@ -1,0 +1,57 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 58
+    length: 36
+    placeholder_text: '# TODO считать содержимое JSON файла'
+    initial_state:
+      length: 36
+      offset: 58
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: |-
+      with open(filename) as f:
+              json_data = json.load(f)
+  - offset: 110
+    length: 100
+    placeholder_text: "...  # TODO записать выражение-генератор возвращающее значе\
+      ние по ключу contains_improvement_appeals"
+    initial_state:
+      length: 100
+      offset: 110
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: "(item[\"contains_improvement_appeals\"] for item in\
+      \ json_data)"
+  text: |
+    import json
+
+
+    def task():
+        filename = "input.json"
+        # TODO считать содержимое JSON файла
+
+        gen_exr = ...  # TODO записать выражение-генератор возвращающее значение по ключу contains_improvement_appeals
+        return sum(gen_exr)
+
+
+    if __name__ == "__main__":
+        print(task())
+  learner_created: false
+- name: __init__.py
+  visible: false
+  learner_created: false
+- name: tests/output.txt
+  visible: false
+  text: |
+    1418
+  learner_created: false
+- name: input.json
+  visible: true
+  learner_created: false
+status: Unchecked
+record: -1
