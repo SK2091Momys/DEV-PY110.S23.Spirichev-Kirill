@@ -8,7 +8,7 @@ def task() -> list:
         0b1010101010  # бинарное представление представление
     ]
 
-    return ...  # TODO c помощью функции map привести каждый элемент списка к типу int
+    return list(map(int, num_list))
 
 
 if __name__ == "__main__":
