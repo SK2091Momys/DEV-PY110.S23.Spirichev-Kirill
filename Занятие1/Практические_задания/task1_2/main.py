@@ -3,7 +3,7 @@ def get_distance(point: tuple) -> int:
 
 
 def task(points: list) -> int:
-    return max(list(map(get_distance, points)))  # TODO убрать list
+    return max(map(get_distance, points))  # TODO убрать list
 
 
 if __name__ == "__main__":

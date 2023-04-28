@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 64
-    length: 49
+    length: 18
     placeholder_text: "...  # TODO бесконечно повторяем элементы кортежа"
     initial_state:
       length: 49
       offset: 64
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: itertools.cycle(a)
   text: |
     import itertools
@@ -44,5 +44,8 @@ files:
     3
     1
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 23 Apr 2023 15:13:10 UTC"
 record: -1

@@ -12,7 +12,7 @@ def task():
         4.575235346645
     ]
 
-    return list(map(round, my_floats, [2] * len(my_floats)))  # TODO заменить на repeat
+    return list(map(round, my_floats, repeat(2)))  # TODO заменить на repeat
 
 
 if __name__ == "__main__":

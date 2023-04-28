@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 240
-    length: 49
+    length: 38
     placeholder_text: "[2] * len(my_floats)))  # TODO заменить на repeat"
     initial_state:
       length: 49
       offset: 240
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: repeat(2)))
   text: |
     from itertools import repeat
@@ -42,5 +42,8 @@ files:
   text: |
     [4.36, 6.09, 3.25, 9.78, 2.16, 8.88, 4.58]
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 23 Apr 2023 14:46:15 UTC"
 record: -1

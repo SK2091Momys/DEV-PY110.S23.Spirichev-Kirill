@@ -3,16 +3,16 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 223
-    length: 75
+  - offset: 246
+    length: 1
     placeholder_text: "...  # TODO c помощью функции map привести каждый элемент с\
       писка к типу int"
     initial_state:
       length: 75
       offset: 223
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: "list(map(int, num_list))"
   text: |
     def task() -> list:
@@ -39,5 +39,8 @@ files:
   text: |
     [12, 14, 3, 5, 255, 682]
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 23 Apr 2023 14:55:01 UTC"
 record: -1

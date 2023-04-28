@@ -1,7 +1,7 @@
 .idea
 venv
 __init__.py
-*.yaml
-*.png
+.yaml
+.png
 output.txt
-*.md
+.md
