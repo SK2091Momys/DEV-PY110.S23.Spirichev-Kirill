@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 126
-    length: 87
+    length: 38
     placeholder_text: "[num for num in list_numbers if num < 0])  # TODO заменить\
       \ list comprehension на filter"
     initial_state:
@@ -12,7 +12,7 @@ files:
       offset: 126
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: "filter(lambda x: x < 0, list_numbers))"
   text: |
     def task() -> int:
@@ -32,5 +32,8 @@ files:
   text: |
     -51
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 23 Apr 2023 15:10:53 UTC"
 record: -1

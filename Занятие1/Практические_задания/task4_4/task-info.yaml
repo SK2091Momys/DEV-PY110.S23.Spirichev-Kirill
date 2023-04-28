@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 43
-    length: 62
+    length: 17
     placeholder_text: "[hex(num) for num in numbers]  # TODO заменить на итератор\
       \ map"
     initial_state:
@@ -12,18 +12,18 @@ files:
       offset: 43
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: "map(hex, numbers)"
-  - offset: 131
-    length: 81
+  - offset: 85
+    length: 26
     placeholder_text: "...:  # TODO используя zip объединить число и его шестнадца\
       теричное представление"
     initial_state:
       length: 81
       offset: 131
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: "zip(numbers, hex_numbers):"
   text: |
     def task(numbers: list):
@@ -60,5 +60,8 @@ files:
     Число 14 -> 0xe
     Число 15 -> 0xf
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 23 Apr 2023 14:53:29 UTC"
 record: -1

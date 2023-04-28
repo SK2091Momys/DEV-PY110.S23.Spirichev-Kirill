@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 128
-    length: 286
+    length: 37
     placeholder_text: |-
       # TODO заменить на функцию max и функцию get_distance
           list_distances = list(map(get_distance, points))
@@ -17,8 +17,8 @@ files:
       length: 286
       offset: 128
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: "return max(points, key=get_distance)"
   text: |
     def get_distance(point: tuple) -> int:
@@ -53,5 +53,8 @@ files:
   text: |
     (6.8, -3)
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 23 Apr 2023 14:17:44 UTC"
 record: -1

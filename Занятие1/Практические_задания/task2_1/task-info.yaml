@@ -4,15 +4,15 @@ files:
   visible: true
   placeholders:
   - offset: 65
-    length: 77
+    length: 25
     placeholder_text: "[char for char in str_ if char.isalpha()]  # TODO переписат\
       ь с помощью filter"
     initial_state:
       length: 77
       offset: 65
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: "filter(str.isalpha, str_)"
   text: |
     if __name__ == "__main__":
@@ -29,5 +29,8 @@ files:
   text: |
     qwerty
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 23 Apr 2023 14:27:31 UTC"
 record: -1
